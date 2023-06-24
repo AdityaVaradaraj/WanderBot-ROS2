@@ -13,11 +13,9 @@ Ubuntu 22.04
 2) Run the following commands in one terminal:
    ```console
    rosdep install -i --from-path src --rosdistro humble -y
-   ```
-   ```console
+   
    colcon build --packages-select lidar_wanderbot_cpp
-   ```
-   ```console
+   
    source install setup.bash
    ```
 3) On another terminal, run:
