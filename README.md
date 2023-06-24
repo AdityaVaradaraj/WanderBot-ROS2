@@ -22,9 +22,11 @@ Ubuntu 22.04
    ```console
    ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
    ```
+4) Then on the first terminal run the following command:
    ```console
    ros2 run lidar_wanderbot_cpp wanderbot
    ```
+5) Now you must see the turtlebot avoid collision based on LiDAR readings
 
 https://github.com/AdityaVaradaraj/WanderBot-ROS2/assets/34472717/a93642b2-58d2-4e27-acc9-6c41fabc30ec
 
