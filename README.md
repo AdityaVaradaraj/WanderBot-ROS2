@@ -11,16 +11,20 @@ Ubuntu 22.04
 ## Instructions:
 1) Download the package and move it to your ROS2 Workspace.
 2) Run the following commands in one terminal:
-   ```
+   ```console
    rosdep install -i --from-path src --rosdistro humble -y
    ```
-   ```
+   ```console
    colcon build --packages-select lidar_wanderbot_cpp
    ```
-   ```
+   ```console
    source install setup.bash
    ```
+3) On another terminal, run:
+   ```console
+   ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
    ```
+   ```console
    ros2 run lidar_wanderbot_cpp wanderbot
    ```
 
